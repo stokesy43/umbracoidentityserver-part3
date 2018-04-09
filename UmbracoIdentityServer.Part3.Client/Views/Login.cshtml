@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Login>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+
+</head>
+<body>
+    @Html.Action("ExternalLogin", "Account", new { provider = "OpenIdConnect" })
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoIdentityServer.Part3.IdSrv", "UmbracoIdentityServer.Part3.IdSrv\UmbracoIdentityServer.Part3.IdSrv.csproj", "{67A1FEB2-303E-47CD-AA9F-B0D255253FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoIdentityServer.Part3.Client", "UmbracoIdentityServer.Part3.Client\UmbracoIdentityServer.Part3.Client.csproj", "{AD1AF1B6-07F7-4688-AE37-12EFB34F545E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A1FEB2-303E-47CD-AA9F-B0D255253FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A1FEB2-303E-47CD-AA9F-B0D255253FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A1FEB2-303E-47CD-AA9F-B0D255253FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A1FEB2-303E-47CD-AA9F-B0D255253FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1AF1B6-07F7-4688-AE37-12EFB34F545E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1AF1B6-07F7-4688-AE37-12EFB34F545E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1AF1B6-07F7-4688-AE37-12EFB34F545E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1AF1B6-07F7-4688-AE37-12EFB34F545E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {973893A7-286F-4514-AF19-C70BA20AD9DB}
+	EndGlobalSection
+EndGlobal
